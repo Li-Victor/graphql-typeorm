@@ -1,0 +1,13 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rules": {
+    "variable-name": [true, "allow-pascal-case"],
+    "no-submodule-imports": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-else-after-return": [true, "allow-else-if"],
+    "member-access": [true, "no-public"],
+    "no-console": false
+  }
+}
